@@ -1,0 +1,64 @@
+
+.daymonday li:nth-child(2n+2) {
+    color: red;
+}
+.daymonday li:nth-child(1){
+    color:blue; 
+}
+.daymonday li:nth-child(3) {
+    color:yellowgreen;
+}
+.daymonday li:last-child {
+    color: lime;
+}
+.daytuesday li:nth-child(even) {
+    color:aquamarine;
+}
+.daytuesday li:nth-child(-n+2) {
+    color:olive;
+}
+.daytuesday li:nth-child(3) {
+    color:cornflowerblue;
+}
+.daytuesday li:nth-child(5) {
+    color:crimson;
+}
+.daywednesday li:nth-child(odd) {
+    color:darkslategray;
+}
+.daywednesday li:nth-child(even) {
+    color:darkblue;
+}
+.daythursday li:nth-child(1) {
+    color:gold;
+}
+.daythursday li:nth-child(2n) {
+    color:hotpink;
+}
+.daythursday li:nth-child(3) {
+    color:firebrick;
+}
+.daythursday li:nth-child(5) {
+    color:magenta;
+}
+.dayfriday li:nth-child(odd) {
+    color:tomato;
+}
+.dayfriday li:nth-child(even) {
+    color:midnightblue;
+}
+.daymonday .subject:hover {
+    background-color:bisque;
+}
+.daytuesday .subject-link:focus {
+    color:darkgreen;
+}
+.daytuesday .subject-link:active {
+    color:orangered;
+}
+.daywednesday .subject-2-link:visited {
+    color:lightcoral;
+}
+.daywednesday .subject-2-link:hover {
+    background-color:mediumpurple;
+}
